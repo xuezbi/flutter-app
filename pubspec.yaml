@@ -1,0 +1,27 @@
+name: student_info_qr
+description: A web-based student information QR code generator.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  google_fonts: ^5.1.0  
+  qr_flutter: ^4.1.0  # For generating QR codes
+  mobile_scanner: ^3.5.5  # For scanning QR codes
+  url_launcher: ^6.2.1  # For launching URLs/actions from QR data
+  share_plus: ^7.2.1  # For sharing QR codes
+  path_provider: ^2.1.1  # For file access to save QR codes
+  image_gallery_saver: ^2.0.3  # For saving QR codes to gallery
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
